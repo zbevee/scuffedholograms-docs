@@ -1,6 +1,6 @@
 # ScuffedHolograms Documentation
 
-This repository holds the source for the ScuffedHolograms documentation site. It contains **only documentation** — no plugin source code.
+This repository holds the source for the ScuffedHolograms documentation site. It contains **only documentation**, no plugin source code.
 
 The site is built with [MkDocs](https://www.mkdocs.org/) and the [Material theme](https://squidfunk.github.io/mkdocs-material/).
 

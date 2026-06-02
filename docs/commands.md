@@ -44,7 +44,7 @@ Sends a private chat message to a single online player.
 
 The message supports colour codes, for example `&a` for green or `&#RRGGBB` for a hex colour. If no colour is specified, the message is sent in blue.
 
-It is designed to be used as an interaction action so a hologram can message the player who interacted with it, for example:
+Use it as an interaction action so a hologram can message the player who interacted with it, for example:
 
 ```
 /sch sendchat {player} "You have already completed this quest."

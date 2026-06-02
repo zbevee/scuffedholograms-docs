@@ -1,5 +1,5 @@
 site_name: ScuffedHolograms
-site_description: Documentation for the ScuffedHolograms Hytale server plugin — text, image, GIF, model, and particle holograms with placeholders, leaderboards, and interactive actions.
+site_description: Documentation for the ScuffedHolograms Hytale server plugin. Text, image, GIF, model, and particle holograms with placeholders, leaderboards, and interactive actions.
 site_author: Zbeve
 
 # The free GitHub Pages URL is filled in automatically by the deploy workflow.
