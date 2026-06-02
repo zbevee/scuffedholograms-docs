@@ -1,0 +1,83 @@
+site_name: ScuffedHolograms
+site_description: Documentation for the ScuffedHolograms Hytale server plugin — text, image, GIF, model, and particle holograms with placeholders, leaderboards, and interactive actions.
+site_author: Zbeve
+
+# The free GitHub Pages URL is filled in automatically by the deploy workflow.
+# Set this to your custom domain if you add one (and add a docs/CNAME file).
+# site_url: https://example.github.io/scuffedholograms-docs/
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/cube-outline
+    repo: material/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - navigation.instant
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: installation.md
+      - Commands: commands.md
+      - Permissions: permissions.md
+  - Building Holograms:
+      - Creating & Editing: creating-holograms.md
+      - Styling Text: text-formatting.md
+      - Images & GIFs: images-and-gifs.md
+      - Display Settings: display-settings.md
+      - Particle Effects: particle-effects.md
+  - Dynamic Content:
+      - Placeholders: placeholders.md
+      - Leaderboards: leaderboards.md
+  - Interactivity:
+      - Interactions & Actions: interactions.md
+  - Server Features:
+      - Combat Text: combat-text.md
+  - Reference:
+      - Integrations: integrations.md
+      - Importing: importing.md
+      - Data & Files: data-and-files.md
